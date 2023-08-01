@@ -1,0 +1,10 @@
+<div class="text-center">
+    <h1 [style.color]="'red'" >Pipes in Angular</h1>
+
+<h1>{{title | uppercase}}</h1> <p>upparcase pipe</p>
+<h1>{{title | lowercase }}</h1> <p>lowercase pipe</p>
+<h1>{{jsonData | json}}</h1> <p>json pipe</p>
+<h1>{{todaysDate | date}}</h1> <p>date pipe</p>
+<h1>{{modey | currency : 'RS' }}</h1> <p>currency Symbol pipe</p>
+<h1>{{30 | cstPipe:80}}</h1> <p>Custom pipe to convert USD to INR</p>
+</div>
