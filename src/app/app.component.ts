@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myNgApp';
+
+  jsonData={
+    name:"harshal",
+    age:87
+  }
+
+  todaysDate=Date()
+
+  modey=100
+
+
 }
