@@ -1,3 +1,10 @@
 <div class="text-center">
-    
+    <h1>Directives in Angular</h1>
+
+<div *ngIf="courses.length > 0; else noCourses " >
+    Courses are avaliable
+</div>
+<ng-template #noCourses>
+    Course not avaliable
+</ng-template>
 </div>
